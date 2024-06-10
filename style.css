@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-bg {
+    background-image: url("./images/flag.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30pt;
+    font-family: bolder;
+
+}
+
+#nav-links {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+
+#ul-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: green;
+
+
+}
+
+.btn {
+    color: white;
+    background-color: transparent;
+    padding: 2px 15px;
+    text-decoration: none;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+
+}
+
+.header-text {
+    color: white;
+    font-size: 30px;
+    margin-top: 8rem;
+}
+
+.about-section {
+    margin: 4rem 10rem;
+    display: flex;
+    gap: 4rem;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.images img {
+    width: 246px;
+    height: 311px;
+}
+
+#boat {
+    margin-top: 100px;
+}
+
+#plane {
+    margin-top: 50px;
+}
+
+.about-text {
+    width: 50%;
+    font-size: 24px;
+
+}
+
+.about-text h5 {
+    color: rgb(255, 167, 5);
+}
+
+.about-text h2 {
+    font-size: 30px;
+}
+
+.images img {
+    width: 50%;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.btn-down {
+    border: none;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.btn-down a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-down:hover {
+    background-color: green;
+}
+
+.serve-section {
+    margin: 4rem 10rem;
+    gap: 4rem
+}
+.serve-images {
+    display: flex;
+    gap: 10px;
+}
+.second-images{
+    width: 50%;
+    height: 30%;
+    font-size: 50%;
+}
+
+.second-images img{
+    width: 100%;
+}
+.serve-text{
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 5rem;
+}
+.serve-text h3{
+    color: orange;
+}
+.serve-text h1{
+    font-size: 70px;
+}
+.serve-images a{
+    text-decoration: none;
+    color: purple;
+}
+.about-button:hover{
+    background-color: green;
+    
+}
+.serve-button{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
